@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+
+body {
+    background: #c3c3aa;
+    margin:0;
+}
+
+.header {
+    text-align: center;
+    padding-top: 25px;
+    background: #c3c3aa;
+}
+
+h1 {
+    font-size: xx-large;
+    color: #202020;
+    font-family: 'Humnst777 Blk BT';
+}
+
+table{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+td {
+    font-size: medium;
+    color: #b9b998;
+    text-align: center;
+    font-family: 'Humnst777 Blk BT';
+    background: #c3c3aa;
+}
+
+.lampuluartengah {
+    width: 20px;
+    height: 20px;
+    background-color: lightyellow;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 45%;
+    margin-bottom: 30px;
+}
+
+.lampuluartamu {
+    width: 20px;
+    height: 20px;
+    background-color: lightyellow;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 45%;
+    margin-bottom: 30px;
+}
+
+.lampuluarteras {
+    width: 20px;
+    height: 20px;
+    background-color: lightyellow;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 48%;
+    margin-bottom: 30px;
+}
+
+.lampudalamtengah{
+    display: none;
+    width: 20px;
+    height: 20px;
+    background-color: lightyellow;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-left: 45%;
+    margin-bottom: 30px;
+    box-shadow: 0 0 5px lightyellow,
+                0 0 25px lightyellow,
+                0 0 50px lightyellow,
+                0 0 100px lightyellow,
+                0 0 200px lightyellow;
+}
+
+.lampudalamtamu{
+    display: none;
+    width: 20px;
+    height: 20px;
+    background-color: lightyellow;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-left: 45%;
+    margin-bottom: 30px;
+    box-shadow: 0 0 5px lightyellow,
+                0 0 25px lightyellow,
+                0 0 50px lightyellow,
+                0 0 100px lightyellow,
+                0 0 200px lightyellow;
+}
+
+.lampudalamteras{
+    display: none;
+    width: 20px;
+    height: 20px;
+    background-color: lightyellow;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-left: 48%;
+    margin-bottom: 30px;
+    box-shadow: 0 0 5px lightyellow,
+                0 0 25px lightyellow,
+                0 0 50px lightyellow,
+                0 0 100px lightyellow,
+                0 0 200px lightyellow;
+}
+
+.container{
+    margin-left: 37%;
+}
+.nyala a button{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.mati a button{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.nyala button{
+    border: 1px solid rgb(64, 209, 62);
+    background-color: rgb(64, 209, 62);
+}
+.mati button{
+    border: 1px solid rgb(20, 20, 20);
+    color: whitesmoke;
+    background-color: #202020;
+}
+.tengah button{
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.tamu button{
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.teras button{
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100px;
+    border-radius: 8px;
+    font-weight: bold;
+}

@@ -1,0 +1,41 @@
+<?php
+include "function.php";
+
+$query = mysqli_query($conn, "SELECT sum(Teras) as Teras, sum(Ruang_Tengah) as Ruang_Tengah, sum(Ruang_Tamu) as Ruang_Tamu, date FROM instb")
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rekap Sum Nyala</title>
+</head>
+<body style="background-color: #c3c3aa;">
+    <center>
+    <h1 style="font-family: 'Humnst777 Blk BT';">REKAP SUM NYALA LAMPU</h1>
+    <table style="font-family:Arial;" align="center" cellspacing="1" cellpadding="6" border="1px">
+        <tr>
+            <td><b>No.</b></td>
+            <td><b>Tanggal</b></td>
+            <td><b>Teras</b></td>
+            <td><b>Ruang Tengah</b></td>
+            <td><b>Ruang Tamu</b></td>
+        </tr>
+        <?php $i=0;
+        while($data = mysqli_fetch_array($query)) {
+            $i++;
+        ?>
+        <tr>
+            <th><?= $i ?></th>
+            <td><?= $data["date"]?></td>
+            <td><?= $data["Teras"]?></td>
+            <td><?= $data["Ruang_Tengah"]?></td>
+            <td><?= $data["Ruang_Tamu"]?></td>
+        </tr>
+        <?php } ?>
+    </table>
+    </center>
+</body>
+</html>
